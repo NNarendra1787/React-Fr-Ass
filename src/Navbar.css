@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Great+Vibes&display=swap');
+body{
+    background-image: linear-gradient(to bottom, lightblue,lightpink,lightyellow);
+    height: 100vh;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rebeccapurple;
+}
+.link{
+    color: white;
+    font-size: 2rem;
+    padding: 12px 3px;
+    font-family: 'Great Vibes';
+    text-decoration: none;
+    
+}
+.myTable{
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    width: 80%;
+    padding: 23px 12px;
+    /* margin: 4% 2%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+hr{
+    width: 298%;
+}
+.ch{
+    position: relative;
+    left: 80px;
+}
+.cha{
+    position: relative;
+    left: 45px;
+}
+.chb{
+    position: relative;
+    left: 105px;
+}
+.name{
+    position: relative;
+    right: 160px;
+}
+#btn{
+    background-color: white;
+    font-size: 20px;
+    padding: 6px 3px;
+    width: 15%;
+    border-radius: 22px;
+    position: relative;
+    bottom: 60px;
+    left: 75%;
+}
+.link:hover{
+    color: pink;
+}
